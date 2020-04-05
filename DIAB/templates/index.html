@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+
+{%  block content  %}
+<div class="container" style="background-color: aliceblue;">
+    <hr>
+  <form method="POST" name="fom">
+        <div class="form-group">
+          <label >Pregnancy</label>
+          <input type="number" class="form-control" name="preg"  placeholder="Enter number of pregnancies" required>
+        </div>
+        <div class="form-group">
+            <label >Glucose</label>
+            <input type="number" class="form-control"  name="glu" placeholder="Enter  Glucose" required>
+          </div>
+        <div class="form-group">
+            <label>Blood Pressure</label>
+            <input type="number" class="form-control" name="bp" placeholder="Enter  Blood Pressure" required>
+        </div>
+        <div class="form-group">
+            <label >Insulin</label>
+            <input type="number" class="form-control" name="insu"  placeholder="Enter Insulin" required>
+        </div>
+        <div class="form-group">
+            <label >BMI</label>
+            <input type="number" class="form-control" name="bmi" placeholder="Enter your BMI" required>
+        </div>
+        <div class="form-group">
+            <label>Age</label>
+            <input type="number" class="form-control"  name="age" placeholder="Enter your age" required>
+        </div>
+        <hr>
+        <div class="form-group">
+            <input class="btn btn-success" type="submit" class="form-control"  >
+            <input class="btn btn-warning" type="reset" class="form-control"  >
+        </div>     
+      </form>
+      <hr>   
+  </div>
+</body>
+{%  endblock %}

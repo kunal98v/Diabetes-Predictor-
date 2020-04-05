@@ -1,0 +1,21 @@
+body
+{
+    background-color: white;
+}
+
+.container
+{
+    background-color: wheat;
+}
+
+
+#ftr
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:red;
+    color: red;
+    text-align: center;
+}
